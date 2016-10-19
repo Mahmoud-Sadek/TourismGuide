@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ahmedabomazin.fekra.fekra.EventEditProcessing">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imgbtn_PreviousPlacesImage"
+        android:background="@mipmap/camera_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_PreviousPlace_title"
+        android:background="@drawable/edittextshape"
+        android:hint="Write Event Title ..."
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/imgbtn_PreviousPlacesImage"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:ems="10"
+        android:id="@+id/edit_PreviousPlace_url"
+        android:padding="10dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Write Descrption ..."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/edit_PreviousPlace_title"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Editing place"
+        android:id="@+id/btn_save_event"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_above="@+id/btn_Delete_event"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete place"
+        android:id="@+id/btn_Delete_event"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

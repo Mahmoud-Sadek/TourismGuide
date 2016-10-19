@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "631712478696",
+    "firebase_url": "https://tourism-guide-e3a68.firebaseio.com",
+    "project_id": "tourism-guide-e3a68",
+    "storage_bucket": "tourism-guide-e3a68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631712478696:android:11037a61a4d84197",
+        "android_client_info": {
+          "package_name": "com.example.sadokey.tourismguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631712478696-08odinrkn22bevu23hr8pv9ov7qnn4mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sadokey.tourismguide",
+            "certificate_hash": "F1C5B53668B3BB1D6B4708B328E861858CB0642F"
+          }
+        },
+        {
+          "client_id": "631712478696-56vo14nt6guptca7hucn9mcqfgiaicvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_EItX0aFh2kFSXzOL48thfA1g32h6MxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631712478696-56vo14nt6guptca7hucn9mcqfgiaicvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631712478696:android:24d4dac00530062f",
+        "android_client_info": {
+          "package_name": "com.example.sadokey.tourism_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631712478696-kqnjf18gcbrg60f5jh8fn9uohpmmfam1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sadokey.tourism_guide",
+            "certificate_hash": "F1C5B53668B3BB1D6B4708B328E861858CB0642F"
+          }
+        },
+        {
+          "client_id": "631712478696-56vo14nt6guptca7hucn9mcqfgiaicvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_EItX0aFh2kFSXzOL48thfA1g32h6MxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631712478696-56vo14nt6guptca7hucn9mcqfgiaicvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
